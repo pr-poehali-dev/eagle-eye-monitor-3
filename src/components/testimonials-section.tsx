@@ -3,25 +3,25 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 const testimonials = [
   {
-    name: "Елена Родригес",
-    role: "Директор по нейронауке, Quantum Dynamics",
+    name: "Дарья, 22 года",
+    role: "Студентка, Москва",
     avatar: "/professional-woman-scientist.png",
     content:
-      "SynapseAI изменил наш подход к нейрореабилитации. Результаты пациентов улучшились на 340% после внедрения.",
+      "За 2 месяца минус 8 кг! Никогда не думала, что питание может быть таким вкусным и при этом реально работать. AI подобрал всё идеально под мой ритм жизни.",
   },
   {
-    name: "Маркус Уильямс",
-    role: "Руководитель исследований, Stellar Analytics",
+    name: "Артём, 19 лет",
+    role: "Первокурсник, Санкт-Петербург",
     avatar: "/cybersecurity-expert-man.jpg",
     content:
-      "Точность и протоколы безопасности не имеют аналогов. Мы значительно ускорили клинические испытания с платформой SynapseAI.",
+      "Пришёл в зал нулём, через 3 месяца уже жму 80 кг. План тренировок от AI — просто огонь, каждая неделя сложнее предыдущей, прогресс виден невооружённым глазом.",
   },
   {
-    name: "Анна Ковальски",
-    role: "Вице-президент по разработке, Nova Industries",
+    name: "Алина, 25 лет",
+    role: "Менеджер, Екатеринбург",
     avatar: "/asian-woman-tech-developer.jpg",
     content:
-      "Интеграция прошла безупречно. Адаптивные алгоритмы понимают намерения пользователя лучше любой системы, что мы тестировали.",
+      "Наконец-то сервис, который понимает, что у меня нет времени на 2-часовые тренировки. AI составил эффективные 45-минутные сессии и план питания под мой график.",
   },
 ]
 
@@ -30,9 +30,9 @@ export function TestimonialsSection() {
     <section className="py-24 px-6 bg-card">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Нам доверяют лидеры</h2>
+          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Реальные результаты</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Что говорят лидеры индустрии о нашей революционной технологии
+            Молодёжь по всей стране уже меняет тело и жизнь с помощью FitAI Pro
           </p>
         </div>
 
