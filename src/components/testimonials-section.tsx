@@ -32,7 +32,7 @@ export function TestimonialsSection() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Реальные результаты</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Молодёжь по всей стране уже меняет тело и жизнь с помощью FitAI Pro
+            Молодёжь по всей стране уже меняет тело и жизнь с помощью Форма Жизни
           </p>
         </div>
 

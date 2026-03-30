@@ -1,0 +1,6 @@
+{
+  "create-order": "https://functions.poehali.dev/bcd8483a-1950-4bdd-ae7f-2f1952acd8fb",
+  "get-order": "https://functions.poehali.dev/cdfed9e8-2f17-4077-b2ba-cbe3c4747b62",
+  "chat": "https://functions.poehali.dev/3a6b5606-ab60-4c88-b10c-792be4c24b75",
+  "confirm-payment": "https://functions.poehali.dev/eb10872e-987d-4589-bf15-3887888a1241"
+}

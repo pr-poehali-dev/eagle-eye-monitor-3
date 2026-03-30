@@ -1,0 +1,13 @@
+{
+  "tests": [
+    {
+      "name": "Create order",
+      "method": "POST",
+      "path": "/",
+      "body": {"client_name": "Тест Тестов", "client_phone": "+79001234567", "age": 22, "weight": 70.0, "height": 175.0, "gender": "male", "activity_level": "low", "goal": "lose_weight"},
+      "expectedStatus": 200,
+      "expectedBody": {"order_id": "string"},
+      "bodyMatcher": "partial"
+    }
+  ]
+}

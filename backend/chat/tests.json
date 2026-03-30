@@ -1,0 +1,12 @@
+{
+  "tests": [
+    {
+      "name": "Get messages missing order_id",
+      "method": "GET",
+      "path": "/?order_id=",
+      "expectedStatus": 400,
+      "expectedBody": {"error": "string"},
+      "bodyMatcher": "partial"
+    }
+  ]
+}

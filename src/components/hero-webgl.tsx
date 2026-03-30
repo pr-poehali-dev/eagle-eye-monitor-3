@@ -114,7 +114,7 @@ const Scene = () => {
 }
 
 export const Hero3DWebGL = () => {
-  const titleWords = "FitAI Pro".split(" ")
+  const titleWords = "Форма Жизни".split(" ")
   const subtitle = "Твой персональный AI-тренер. Планы тренировок и питания под твоё тело."
   const [visibleWords, setVisibleWords] = useState(0)
   const [subtitleVisible, setSubtitleVisible] = useState(false)

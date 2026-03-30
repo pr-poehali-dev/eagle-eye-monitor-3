@@ -1,0 +1,13 @@
+{
+  "tests": [
+    {
+      "name": "Confirm payment missing order_id",
+      "method": "POST",
+      "path": "/",
+      "body": {},
+      "expectedStatus": 400,
+      "expectedBody": {"error": "string"},
+      "bodyMatcher": "partial"
+    }
+  ]
+}

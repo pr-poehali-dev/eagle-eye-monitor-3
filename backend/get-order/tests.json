@@ -1,0 +1,12 @@
+{
+  "tests": [
+    {
+      "name": "Get order missing param",
+      "method": "GET",
+      "path": "/?order_id=",
+      "expectedStatus": 400,
+      "expectedBody": {"error": "string"},
+      "bodyMatcher": "partial"
+    }
+  ]
+}
